@@ -7,7 +7,7 @@ public class ContaTerminal {
     int numero;
     String agencia;
     String nomeCliente;
-    double saldo = 0.0;
+    double saldo;
 
     // conhecer e importar a classe Scanner
     Scanner conta = new Scanner(System.in);
